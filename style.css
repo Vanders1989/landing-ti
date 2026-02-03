@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,8 +9,9 @@
 body {
     line-height: 1.6;
     background: #f4f4f4;
-     
+
 }
+
 .header {
     background: #0d6efd;
     color: #fff;
@@ -24,7 +25,8 @@ main {
 
 }
 
-.services, .contact{
+.services,
+.contact {
     background: #fff;
     margin-bottom: 20px;
     padding: 20px;
@@ -38,36 +40,66 @@ main {
 
 
 }
+
 form {
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 10px;
 
 }
 
-input, textarea{
+input,
+textarea {
     padding: 10px;
 
 }
- button {
+
+button {
     padding: 10px;
     background: #0d6efd;
     color: #fff;
     border: none;
     cursor: pointer;
 
- }
- button:hover{
+}
+
+button:hover {
     opacity: 0.9;
- }
- footer{
+}
+
+footer {
     text-align: center;
     padding: 10px;
- }
- 
- @media (min-width: 768px) {
-    main{
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.hero {
+    margin-top: 30px;
+
+}
+
+@media (min-width: 768px) {
+    main {
         max-width: 900px;
         margin: auto;
     }
- }
+}
