@@ -1,0 +1,8 @@
+landing-ti/
+│
+├── index.html
+├── css/
+│   └── style.css
+├── img/
+│   └── hero.png (pode ser qualquer imagem depois)
+└── README.md
